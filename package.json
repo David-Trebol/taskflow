@@ -1,8 +1,11 @@
 {
-  "name": "taskflow",
+  "name": "@david-trebol/taskflow",
   "version": "1.0.0",
   "description": "TaskFlow — Organización y delegación de tareas (uso interno)",
   "main": "server.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "scripts": {
     "start": "node server.js",
     "dev": "npx nodemon server.js",
